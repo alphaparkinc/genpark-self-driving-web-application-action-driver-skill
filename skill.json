@@ -1,0 +1,35 @@
+{
+  "name": "genpark-self-driving-web-application-action-driver-skill",
+  "version": "1.0.0",
+  "description": "GenPark AI Agent Skill - Self-driving web application action driver & headless browser goal accomplisher.",
+  "author": "genpark",
+  "category": "developer",
+  "tags": [
+    "self-driving-software",
+    "headless-browser",
+    "web-automation",
+    "action-driver",
+    "ph-august17"
+  ],
+  "inputs": {
+    "target_url": {
+      "type": "string"
+    },
+    "task_objective": {
+      "type": "string"
+    }
+  },
+  "outputs": {
+    "actions_executed_count": {
+      "type": "integer"
+    },
+    "goal_accomplished": {
+      "type": "boolean"
+    },
+    "final_state_summary": {
+      "type": "string"
+    }
+  },
+  "entrypoint": "client.py",
+  "example": "example_usage.py"
+}
